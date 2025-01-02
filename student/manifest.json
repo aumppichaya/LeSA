@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "LeSA",
+  "version": "1.0",
+  "description": "Access webcam for LeSA CV-AI processing in headless mode.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "LeSA",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png",
+      "512": "icon.png"
+    }
+  },
+  "background":{
+    "service_worker":"notification.js"
+  }
+}
