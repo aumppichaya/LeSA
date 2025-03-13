@@ -2,7 +2,7 @@ fastapi
 uvicorn
 motor
 numpy
-urllib
+urllib3
 datetime
 collections
 pickle
