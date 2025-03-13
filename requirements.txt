@@ -3,9 +3,4 @@ uvicorn
 motor
 numpy
 urllib3
-datetime
-collections
 pickle
-time
-string
-random
