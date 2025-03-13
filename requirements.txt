@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+motor
+numpy
+urllib
+datetime
+collections
+pickle
+time
+string
+random
